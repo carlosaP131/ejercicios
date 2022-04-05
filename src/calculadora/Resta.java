@@ -1,3 +1,10 @@
+/*****************************************************************************
+ *Autor:carlos Aurelio Alcántara Pérez 
+ *Fecha de creacion: 05-04-2022 ***
+ *Fecha de actualizacion:05-04-2022
+ *Descripicion:resta de dos numeros 
+ **                                                                                                 
+ * *************************************************************************************************/
 
 package calculadora;
 

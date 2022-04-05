@@ -1,3 +1,11 @@
+/*****************************************************************************
+ *Autor:carlos Aurelio Alcántara Pérez 
+ *Fecha de creacion: 05-04-2022 ***
+ *Fecha de actualizacion:05-04-2022
+ *Descripicion:realiza operaciones de dos numeros introducidos por el usuario  
+ **                                                                                                 
+ * *************************************************************************************************/
+
 package calculadora;
 import java.util.Scanner;
 public class Principal {

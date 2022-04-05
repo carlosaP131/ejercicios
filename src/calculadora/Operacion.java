@@ -1,3 +1,11 @@
+/*****************************************************************************
+ *Autor:carlos Aurelio Alcántara Pérez 
+ *Fecha de creacion: 05-04-2022 ***
+ *Fecha de actualizacion:05-04-2022
+ *Descripicion:  clase abstracta para contener 2 numeros 
+ **                                                                                                 
+ * *************************************************************************************************/
+
 package calculadora;
 
 public abstract class Operacion {
