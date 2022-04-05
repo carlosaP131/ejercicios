@@ -2,38 +2,38 @@
  *Autor:carlos Aurelio Alcántara Pérez 
  *Fecha de creacion: 05-04-2022 ***
  *Fecha de actualizacion:05-04-2022
- *Descripicion:este programa da dos opciones para convertir dolares a pesos y viceversa 
+ *Descripicion:da la opcion de escojer entre convertir de kb a mb y viceversa   
  **                                                                                                 
  * *************************************************************************************************/
-package convertor;
+
+package convertor2;
 
 import java.util.Scanner;
 
 public class Principal {
 	private static Scanner scanner;
-	private static Dolpes val1;
-	private static Pesdol val2;
+	private static Mbakb kb;
+	private static Kbamb mb;
 
 	public static void main(String[] args) {
 		int opc;
-		val1 = new Dolpes();
-		val2 = new Pesdol();
 		scanner = new Scanner(System.in);
-		System.out.println("elija una opcion \n 1)-convertir dolares \n 2)conertir pesos");
+		kb = new Mbakb();
+		mb = new Kbamb();
+		System.out.println("elija una opcion \n 1)-convertir de Kb a Mb \n 2)conertir de Mb a Kb");
 		opc = scanner.nextInt();
 		switch (opc) {
 		case 1:
-			System.out.println("cuantos dolares desea convertir: ");
-			val1.setValor_dolares(scanner.nextDouble());
-			System.out.println("el valor en pesos es $ " + val1.getValordol());
+			System.out.println("cuantos Kb desea convertir: ");
+			kb.setValor_kb(scanner.nextDouble());
+			System.out.println("el valor en Mb es  " + kb.getValormb());
 			break;
 		case 2:
-			System.out.println("cuantos pesos desea convertir: ");
-			val2.setValor_peso(scanner.nextDouble());
-			System.out.println("el valor en pesos es $ " + val2.getValorpes());
+			System.out.println("cuantos Mb desea convertir: ");
+			mb.setValor_mb(scanner.nextDouble());
+			System.out.println("el valor en Kb es  " + mb.getValorkb());
 			break;
 		}
-
 	}
 
 }

@@ -10,31 +10,32 @@ package objeto;
 import java.util.Scanner;
 
 public class Principal {
-	private static Scanner scanner; 
+	private static Scanner scanner;
 	private static Rectangulo area;
 	private static Triangulo area2;
+
 	public static void main(String[] args) {
-	    int opc ;
-	
+		int opc;
+
 		area = new Rectangulo();
 		area2 = new Triangulo();
-		scanner  = new Scanner(System.in);
+		scanner = new Scanner(System.in);
 		System.out.println("elija una opcion \n 1)-area de un rectangulo \n 2)area de un triangulo");
 		opc = scanner.nextInt();
-		switch(opc) { 
+		switch (opc) {
 		case 1:
 			System.out.print("ingrea la base: ");
-		 area.setBase(scanner.nextDouble()); 
-		System.out.print("ingrasa la altura: ");
-		area.setAltura(scanner.nextDouble()); 
-	     System.out.println("el area es: "+area.getArea());
-	      break;
+			area.setBase(scanner.nextDouble());
+			System.out.print("ingrasa la altura: ");
+			area.setAltura(scanner.nextDouble());
+			System.out.println("el area es: " + area.getArea());
+			break;
 		case 2:
-	     System.out.print("ingrea la base del triangulo: ");
-			 area2.setBase(scanner.nextDouble()); 
+			System.out.print("ingrea la base del triangulo: ");
+			area2.setBase(scanner.nextDouble());
 			System.out.print("ingrasa la altura del triangulo : ");
-			area2.setAltura(scanner.nextDouble()); 
-		     System.out.println("el area es del triangulo: "+area2.getAreaT());
+			area2.setAltura(scanner.nextDouble());
+			System.out.println("el area es del triangulo: " + area2.getAreaT());
 			break;
 		}
 	}
