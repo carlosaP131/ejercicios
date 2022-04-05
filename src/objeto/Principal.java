@@ -31,10 +31,10 @@ public class Principal {
 	      break;
 		case 2:
 	     System.out.print("ingrea la base del triangulo: ");
-			 area.setBase(scanner.nextDouble()); 
+			 area2.setBase(scanner.nextDouble()); 
 			System.out.print("ingrasa la altura del triangulo : ");
-			area.setAltura(scanner.nextDouble()); 
-		     System.out.println("el area es del triangulo: "+area.getArea());
+			area2.setAltura(scanner.nextDouble()); 
+		     System.out.println("el area es del triangulo: "+area2.getAreaT());
 			break;
 		}
 	}

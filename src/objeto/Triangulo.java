@@ -19,11 +19,11 @@ public class Triangulo {
 		this.base = base;
 		this.altura = altura;
 	}
-	public double getArea() {
-		return this.base*this.altura;
+	public double getAreaT() {
+		return ((this.base*this.altura)/2);
 	}
 	public void imprimir() {
-		System.out.println("el area es: "+this.getArea());
+		System.out.println("el area es: "+this.getAreaT());
 	}
 	public double getBase() {
 		return base;
