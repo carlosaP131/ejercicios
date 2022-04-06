@@ -2,18 +2,18 @@
 <class-diagram version="1.2.4" icons="false" automaticImage="PNG" always-add-relationships="false" 
   generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
   router="FAN">  
-  <class id="1" language="java" name="ejercicio9.Volumen_Cono" project="ejercicios" 
-    file="/ejercicios/src/ejercicio9/Volumen_Cono.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="279" width="208" x="275" y="367"/>    
+  <class id="1" language="java" name="ejercicio12.Principal" project="ejercicios" 
+    file="/ejercicios/src/ejercicio12/Principal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="104" width="103" x="407" y="257"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="ejercicio9.Principal" project="ejercicios" 
-    file="/ejercicios/src/ejercicio9/Principal.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="113" x="275" y="210"/>    
+  <class id="2" language="java" name="ejercicio12.FacturaCompleta" project="ejercicios" 
+    file="/ejercicios/src/ejercicio12/FacturaCompleta.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="329" width="209" x="407" y="401"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,15 +21,11 @@
     </display>  
   </class>  
   <association id="3">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="4" name="vol">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="5" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="4" name="fac"/>      
+      <multiplicity id="5" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
+    <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

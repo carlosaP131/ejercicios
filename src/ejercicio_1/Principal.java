@@ -1,3 +1,11 @@
+/*****************************************************************************
+ *Autor:carlos Aurelio Alcántara Pérez 
+ *Fecha de creacion: 05-04-2022 ***
+ *Fecha de actualizacion:05-04-2022
+ *Descripicion:pide dos numeros y los multiplica    
+ **                                                                                                 
+ * *************************************************************************************************/
+
 package ejercicio_1;
 
 public class Principal {

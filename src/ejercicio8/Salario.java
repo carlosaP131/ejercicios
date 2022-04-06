@@ -1,3 +1,11 @@
+/*****************************************************************************
+ *Autor:carlos Aurelio Alcántara Pérez 
+ *Fecha de creacion: 05-04-2022 ***
+ *Fecha de actualizacion:05-04-2022
+ *Descripicion: multiplica el salario dado por las horas de trabajo    
+ **                                                                                                 
+ * *************************************************************************************************/
+
 package ejercicio8;
 
 public class Salario {
