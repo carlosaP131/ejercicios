@@ -9,8 +9,8 @@
 package convertor2;
 
 public class Mbakb {
-	private double valor_kb ;
-	private double valor_mb = 0.001 ;
+	private double valor_kb;
+	private double valor_mb = 0.001;
 
 	public Mbakb() {
 

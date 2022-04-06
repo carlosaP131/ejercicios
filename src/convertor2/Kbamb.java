@@ -9,7 +9,7 @@
 package convertor2;
 
 public class Kbamb {
-	private double valor_kb = 1000 ;
+	private double valor_kb = 1000;
 	private double valor_mb;
 
 	public Kbamb() {
